@@ -5,7 +5,7 @@ A full-stack AI-powered application that reviews website UX using Groq (Llama 3.
 ## Features
 
 - **Automated UX Audits**: Scrapes website content and generates structured reviews.
-- **AI Analysis**: Uses Groq Llama 3.3 70b to identify clarity, accessibility, and layout issues.
+- **AI Analysis**: Uses Groq Llama 3.1 70b to identify clarity, accessibility, and layout issues.
 - **Scoring System**: Calculates a 0-100 UX score with visual gauge.
 - **Before/After Suggestions**: Provides actionable code/text improvements for top issues.
 - **PDF Export**: Download comprehensive audit reports.
@@ -16,7 +16,7 @@ A full-stack AI-powered application that reviews website UX using Groq (Llama 3.
 - **Frontend**: React, Vite, Tailwind CSS, Framer Motion
 - **Backend**: Node.js, Express, TypeScript, Playwright
 - **Database**: Supabase (PostgreSQL)
-- **AI**: Groq API (llama-3.3-70b-versatile)
+- **AI**: Groq API (llama-3.1-70b-versatile)
 
 ## Setup
 
