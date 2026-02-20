@@ -1,11 +1,11 @@
 # Website UX Reviewer
 
-A full-stack AI-powered application that reviews website UX using Groq (Llama 3.1) and Playwright.
+A full-stack AI-powered application that reviews website UX using Groq (Llama 3.1) and Cheerio.
 
 ## Features
 
 - **Automated UX Audits**: Scrapes website content and generates structured reviews.
-- **AI Analysis**: Uses Groq Llama 3.1 70b to identify clarity, accessibility, and layout issues.
+- **AI Analysis**: Uses Groq Llama 3.3 70b to identify clarity, accessibility, and layout issues.
 - **Scoring System**: Calculates a 0-100 UX score with visual gauge.
 - **Before/After Suggestions**: Provides actionable code/text improvements for top issues.
 - **PDF Export**: Download comprehensive audit reports.
@@ -14,9 +14,9 @@ A full-stack AI-powered application that reviews website UX using Groq (Llama 3.
 ## Tech Stack
 
 - **Frontend**: React, Vite, Tailwind CSS, Framer Motion
-- **Backend**: Node.js, Express, TypeScript, Playwright
+- **Backend**: Node.js, Express, TypeScript, Cheerio, Axios
 - **Database**: Supabase (PostgreSQL)
-- **AI**: Groq API (llama-3.1-70b-versatile)
+- **AI**: Groq API (llama-3.3-70b-versatile)
 
 ## Setup
 
@@ -76,4 +76,4 @@ The frontend will start at `http://localhost:5173`.
 
 - **Frontend**: Deploy to Vercel (Set `VITE_BACKEND_URL` in environment variables).
 - **Backend**: Deploy to Render/Railway (Add `GROQ_API_KEY`, `SUPABASE_..` env vars).
-  - Ensure Puppeteer/Playwright buildpack is added if using Render (requires system dependencies).
+
